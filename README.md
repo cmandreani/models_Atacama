@@ -34,5 +34,5 @@ If you find this methodology useful, please cite our work: XXXX.
 ######  >>> Figs. 3D-E
 ####    2.7 Draw: heatmap
 ######  >>> Fig. S5
-#### 3) Selection of key metabolites with an elastic net regression 
+## 3) Selection of key metabolites with an elastic net regression 
 ###### >>> Fig. 4A
