@@ -8,9 +8,9 @@ We refer to the results of the simulations (combining six sites, two datasets, a
 Finally, we associate metabolic and environmental data through a regression-based approach.
 Note that Fig. 5 is generated directly by Metage2Metabo (Belcour et al. 2020. eLife. 10.7554/eLife.61968).
 
-DOI: zenodo
-
 If you find this methodology useful, please cite our work: XXXX.
+
+Zenodo: DOIXXXXX
 
 /!\ Don't forget to adapt the codes hereby provided to your own data structure. 
 
