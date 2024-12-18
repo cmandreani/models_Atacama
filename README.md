@@ -31,5 +31,5 @@ The script follows the following structure:
 ###### (Figs. 3D-E)
 ####    2.7 Draw: heatmap
 ###### (Fig. S5)
-## 3) ELASTIC NET for selection of Key metabolites (Fig. 4)
+#### 3) ELASTIC NET for selection of Key metabolites
 ###### (Fig. 4A)
