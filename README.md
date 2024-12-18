@@ -1,13 +1,17 @@
-# This script runs the analyses and plots included in the article "Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes".
+# Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes
 
-Briefly, our work simulates the metabolic potential of prokaryotic communities from six constrasting sites of the Talabre-Lejía transect (Atacama Desert). 
->>>>> simulations, scopes, conditions, M2M
+This script runs the analyses and plots included in the article by CM Andreani-Gerard et al (2025).
+Briefly, our work simulates the metabolic potential of prokaryotic communities from six constrasting sites of the Talabre-Lejía transect (Atacama Desert) under five nutritional scenarios (aka "seeds").
+For this, we used sequence data from whole communities and MAGs that enabled us to build community-wide and genome-resolved metabolic models.
+We refer to the results of the simulations that combined six sites, two datasets, and five seeds as "scopes" (n=60) that consist of lists of metabolites predicted to be producible.
 
 DOI: zenodo
 
 If you find this methodology useful, please cite our work: XXXX.
 
 /!\ Don't forget to adapt the codes hereby provided to your own data structure. 
+
+The script follows the following structure:
 
 ## 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
