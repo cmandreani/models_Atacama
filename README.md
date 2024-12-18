@@ -15,21 +15,21 @@ The script follows the following structure:
 
 ## 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
-###### (Figs. 1A and 4B)
-####    >>> 1.2 Alpha diversity
+######  >>> Figs. 1A and 4B
+####    1.2 Alpha diversity
 ####    1.3 Taxonomic and functional profiling
-###### (Figs. 1B-C, S2, and S3)
+######  >>> Figs. 1B-C, S2, and S3
 ## 2) METABOLISM OF THE TLT
 ####    2.1 Extraction of scopes for metagenomic data (MetaG-GEMs)
 ####    2.2 Extraction of scopes for genomic data (MAG-GEMs)
 ####    2.3 Conversion of scopes into MXs
 ####    2.4 Draw: boxplot
-###### (Figs. 3A-C)
+######  >>> Figs. 3A-C
 ####    2.5 Draw: flowchart
-###### (Fig. S4)
+######  >>> Fig. S4
 ####    2.6 Draw: PCoA
-###### (Figs. 3D-E)
+######  >>> Figs. 3D-E
 ####    2.7 Draw: heatmap
-###### (Fig. S5)
+######  >>> Fig. S5
 #### 3) ELASTIC NET for selection of Key metabolites
-###### (Fig. 4A)
+###### >>> Fig. 4A
