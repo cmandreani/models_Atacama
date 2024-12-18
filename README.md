@@ -12,10 +12,6 @@ If you find this methodology useful, please cite our work: XXXX.
 
 Zenodo: DOIXXXXX
 
-/!\ Don't forget to adapt the codes hereby provided to your own data structure. 
-
-
-
 ## 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
 ######  >>> Figs. 1A and 4B
@@ -36,3 +32,5 @@ Zenodo: DOIXXXXX
 ######  >>> Fig. S5
 ## 3) Selection of key metabolites with an elastic net regression 
 ###### >>> Fig. 4A
+## 
+/!\ Don't forget to adapt the codes hereby provided to your own data structure. 
