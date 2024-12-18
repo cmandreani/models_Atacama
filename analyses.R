@@ -753,7 +753,9 @@ column_order(ht_drawn)[5] #95 METAG GENE RESERVOIR
 write.table(column_order(ht_drawn)[1], "list_NITROGENATED_patterns_16.txt", sep = ";")
 write.table(column_order(ht_drawn)[2], "list_SULFURED_patterns_42.txt", sep = ";")
 
-#### 3) ELASTIC NET for selection of Key metabolites (Fig. 4) ####
+#### 3) Selection of key metabolites with an elastic net regression ####
+
+#       3.1 Creation of the elastic net ####
 
 library(dplyr)
 
@@ -860,6 +862,8 @@ for (i in seq_along(lassos)) {
 #Download data
 write.table(nonzero_coefs, "nonzero_metGroups_elasticNet_alpha0.85.csv", sep = ";", dec = ".", row.names = FALSE)
 
+#       3.2 Summary (Fig. 4A) ####
+
 #Build dataframe for heatmap
 nonzero_data <- unstack(nonzero_coefs, coefficients ~ environm_var)
 names_data <- unstack(nonzero_coefs, met_Group ~ environm_var)
@@ -882,7 +886,7 @@ for (i in seq_along(metGroups_coeffs)) {
   coeff_vector <- ifelse(nonzero_metGroups %in% names(coeff), coeff[match(nonzero_metGroups, names(coeff))], 0)
   nonzero_df[[environm_var]] <- coeff_vector
 }
-
+        
 #Filter nonzero coefficients to define key features
 nonzero_df[nonzero_df  >= -0.3 & nonzero_df <= 0.3] <- 0
 key_metGroups <- nonzero_df[!apply(nonzero_df[-1] == 0, 1, all), ] 
