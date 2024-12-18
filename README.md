@@ -16,7 +16,7 @@ The script follows the following structure:
 ## 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
 ###### (Figs. 1A and 4B)
-####    1.2 Alpha diversity
+####    >>> 1.2 Alpha diversity
 ####    1.3 Taxonomic and functional profiling
 ###### (Figs. 1B-C, S2, and S3)
 ## 2) METABOLISM OF THE TLT
