@@ -28,4 +28,4 @@ Zenodo: DOIXXXXX
 ####    3.1 Creation of elastic net
 ####    3.2 Draw: heatmap
 ## 
-/!\ Don't forget to adapt the codes hereby provided to your own data structure. 
+/!\ Don't forget to adapt the codes hereby provided to your own data structure ;)
