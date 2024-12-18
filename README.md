@@ -25,5 +25,7 @@ Zenodo: DOIXXXXX
 ####    2.6 Draw: PCoA
 ####    2.7 Draw: heatmap
 ## 3) Selection of key metabolites with an elastic net regression 
+####    3.1 Creation of elastic net
+####    3.2 Draw: heatmap
 ## 
 /!\ Don't forget to adapt the codes hereby provided to your own data structure. 
