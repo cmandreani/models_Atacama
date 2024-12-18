@@ -1,8 +1,12 @@
 # This script runs the analyses and plots included in the article "Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes".
 
 Briefly, our work simulates the metabolic potential of prokaryotic communities from six constrasting sites of the Talabre-Lejía transect (Atacama Desert). 
-/!\ simulations, scopes, conditions, M2M
+>>>>> simulations, scopes, conditions, M2M
+
 DOI: zenodo
+
+If you find this methodology useful, please cite our work: XXXX.
+
 /!\ Don't forget to adapt the codes hereby provided to your own data structure. 
 
 ## 1) BACKGROUND OF THE TLT
@@ -17,6 +21,3 @@ DOI: zenodo
 ####    2.5 Draw: flowchart
 ####    2.6 Draw: PCoA
 ####    2.7 Draw: heatmap
-
-If you find this script useful, please cite our work: XXXX.
-
