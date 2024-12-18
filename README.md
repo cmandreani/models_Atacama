@@ -12,7 +12,9 @@ DOI: zenodo
 
 If you find this methodology useful, please cite our work: XXXX.
 
-The script follows the following structure:
+/!\ Don't forget to adapt the codes hereby provided to your own data structure. 
+
+
 
 ## 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
@@ -34,6 +36,3 @@ The script follows the following structure:
 ######  >>> Fig. S5
 #### 3) Selection of key metabolites with an elastic net regression 
 ###### >>> Fig. 4A
-
-
-/!\ Don't forget to adapt the codes hereby provided to your own data structure. 
