@@ -12,8 +12,9 @@ If you find this methodology useful, please cite our work: XXXX.
 
 Zenodo: DOIXXXXX
 
+The structure of the code is indexed as follows:
 
-
+## 
 ### 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
 ####    1.2 Alpha diversity
