@@ -447,7 +447,7 @@ seeds_5 <- unique(scopes_stacked$Seeds)
 shapes_seeds <- c(21,22,23,24,25)
 shapes_5 <- setNames(shapes_seeds, seeds_5)
 
-#Visualize boxplots by dataset (Fig. 3A))=()
+#Visualize boxplots by dataset (Fig. 3A)
 ggplot(scopes_stacked, aes(x=Dataset, y=Scopes, alpha = 0.4)) +
   geom_point(aes(colour = Sites, shape = Seeds), 
              size = 5, alpha = 0.7, stroke = 0.9) + 
