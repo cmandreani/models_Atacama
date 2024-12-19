@@ -821,7 +821,7 @@ fx_Lasso <- function(x, y, environm_var, alpha_value) {
  
   #/!\ you gotta choose between min and 1se 
   model_lambda_mse <- glmnet(as.matrix(x), y, alpha = alpha_value, lambda = cv_model_mse$lambda.min,
-                             intercept = FALSE) #asumes mse
+                             intercept = FALSE)
 
   #Extract coefficients                        
   coefs_mse <- as.matrix(coef(model_lambda_mse, model_lambda_mse$lambda))
