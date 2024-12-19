@@ -12,11 +12,13 @@ If you find this methodology useful, please cite our work: XXXX.
 
 Zenodo: DOIXXXXX
 
-## 1) BACKGROUND OF THE TLT
+
+
+### 1) BACKGROUND OF THE TLT
 ####    1.1 Environmental metadata
 ####    1.2 Alpha diversity
 ####    1.3 Taxonomic and functional profiling
-## 2) METABOLISM OF THE TLT
+### 2) METABOLISM OF THE TLT
 ####    2.1 Extraction of scopes for metagenomic data (MetaG-GEMs)
 ####    2.2 Extraction of scopes for genomic data (MAG-GEMs)
 ####    2.3 Conversion of scopes into MXs
@@ -24,7 +26,7 @@ Zenodo: DOIXXXXX
 ####    2.5 Draw: flowchart
 ####    2.6 Draw: PCoA
 ####    2.7 Draw: heatmap
-## 3) Selection of key metabolites with an elastic net regression 
+### 3) Selection of key metabolites with an elastic net regression 
 ####    3.1 Creation of elastic net
 ####    3.2 Draw: heatmap
 ## 
