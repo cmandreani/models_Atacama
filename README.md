@@ -1,6 +1,6 @@
 # Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes
 
-This script runs the analyses and plots included in the article by CM Andreani-Gerard et al (2025).
+This script runs the analyses included in the article by CM Andreani-Gerard et al (2025).
 Briefly, our work simulates the metabolic potential of prokaryotic communities from six constrasting sites of the Talabre-Lejía transect in the Atacama Desert.
 For this, we used sequence data from whole communities and MAGs that enabled us to build community-wide and genome-resolved metabolic models.
 In our systems biology framework, five nutritional conditions were defined to dinamically simulate organic sources of carbon, nitrogen, and sulfur. 
