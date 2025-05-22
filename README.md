@@ -8,9 +8,9 @@ We refer to the results of the simulations (combining six sites, two datasets, a
 Finally, we associate metabolic and environmental data through a regression-based approach.
 Note that Fig. 5 is generated directly by Metage2Metabo (Belcour et al. 2020. eLife. 10.7554/eLife.61968).
 
-If you find this methodology useful, please cite our work: XXXX.
+If you find this methodology useful, please cite our work: preprint available at BioRxiv 10.1101/2024.12.23.630026.
 
-Zenodo: DOIXXXXX
+Metabolic networks are deposited at Zenodo 10.5281/zenodo.14537000.
 
 The structure of the code is indexed as follows:
 
